@@ -5,6 +5,7 @@
 
 #include "RBST.h"
 
+using namespace std;
 void bubblesort(std::vector<Newspaper>& arr) {
 	size_t n = arr.size();
 	for (size_t i = 0; i < n - 1; ++i) {
@@ -36,7 +37,7 @@ void insertsort(std::vector<Newspaper>& np)
 			std::swap(np[j - 1], np[j]);
 }
 
-//----------------------------------------------------------------------------//
+//-----------------------------------------------------------------------------------------------------------------------------------------//
 int main() {
 	
     setlocale(LC_ALL, "Russian"); // на всякий
@@ -64,11 +65,27 @@ int main() {
 		std::cout << "Found!\n";
 	else
 		std::cout << "That sucks :(\n";
-	
-	//TODO: switch-case
-	bubblesort(newspapers); // sort itself
-	//selectionsort(newspapers);
-	//insertsort(newspapers);
+
+
+	cout << "choose 1, 2 or 3";
+	int x;
+	cin >> x;
+
+	switch (x)
+	{
+	case 1:
+		bubblesort(newspapers);
+		break;
+	case 2:
+		selectionsort(newspapers);
+		break;
+	case 3:
+		insertsort(newspapers);
+		break;
+	default:
+		cout << "choose 1, 2 or 3";
+		break;
+	}
 
 	for (Newspaper np : newspapers) { // console output
 		std::cout << np << "\n";
