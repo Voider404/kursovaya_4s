@@ -1,0 +1,24 @@
+Paper A
+12345
+Ivan
+10
+
+Paper B
+67890
+Petta
+12
+
+Paper C
+54321
+Elena
+8
+
+Paper D
+24680
+Alex
+9
+
+Paper G
+13579
+Olga
+11

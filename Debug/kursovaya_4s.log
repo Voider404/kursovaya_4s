@@ -1,0 +1,6 @@
+﻿  kursovaya_4s.cpp
+kursovaya_4s.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall btree::btree(void)" (??0btree@@QAE@XZ) в функции _main.
+kursovaya_4s.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall btree::~btree(void)" (??1btree@@QAE@XZ) в функции _main.
+kursovaya_4s.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall btree::insert(struct Newspaper)" (?insert@btree@@QAEXUNewspaper@@@Z) в функции _main.
+kursovaya_4s.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: struct node * __thiscall btree::search(struct Newspaper)" (?search@btree@@QAEPAUnode@@UNewspaper@@@Z) в функции _main.
+C:\Users\sir4a\source\repos\kursovaya_4s\Debug\kursovaya_4s.exe : fatal error LNK1120: неразрешенных внешних элементов: 4
